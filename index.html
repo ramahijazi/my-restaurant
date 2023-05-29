@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        table,
+        th,
+        td {
+          border: 1px solid black;
+        }
+      </style>
+     
  <head>
      <meta charset="utf-8" >
      <meta name="description" content="task maneger dashboard.">
      <meta http-equiv="x-ua-compatible" content="ie=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>  La bella restaurant  </title>
+     <link rel="stylesheet" href="./index.css" type="text/css">
+
  </head>
- </body>
-    <div>
+ 
+   <header>
+   <div class="h">
         <h1> La bella restaurant</h1> 
         <ul>
             <li><a href="#">Home </a></li>
@@ -16,11 +27,65 @@
             <li><a href="#">contact us </a></li>
          </ul>   
            
-            <img 
-               src="https://media-cdn.tripadvisor.com/media/photo-s/1a/6e/e3/d2/la-bella-ristorante-italiano.jpg"/> 
+         
 
 
     </div>
-          
+   </header>
+  
+ </body>
+   <main>
+    <div class="img">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/6e/e3/d2/la-bella-ristorante-italiano.jpg" />
+    </div>  
+    <ul>
+      <form action="/action_page.php">
+        <label for="fname">Your Email:</label><br>
+        <input type="text" id="fname" name="fname" value="@gmail.com"><br>
+        <label for="lname">name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br>
+        <label for="lname">Number:</label><br>
+        <input type="text" id="lname" name="lname" value="07"><br>
+  
+  
+        <br>
+  
+        <input type="submit" value="Submit">
+      </form>
+  
+      <p></p>
+      <h3></h3>
+      <table style="width:100%">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>La bella resturent</td>
+          <td>Maria </td>
+          <td>italy</td>
+        </tr>
+      </table>
+     
+  
+    </ul>
+  
+  
+    </div>
+  </main>
+
+
+
+
+
+
+    <footer>
+        <p>
+            &copy all rights reserved for asac
+        </p>
+        <a href="https://www.linkedin.com/notifications"><i class="fa-brands fa-linkedin"></i></a></i>
+
+    </footer>
 </body>
 </html>
